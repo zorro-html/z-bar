@@ -2,6 +2,9 @@
   "name": "z-bar",
   "version": "0.0.1",
   "main": "z-bar.html",
+  "ignore": [
+    "test"
+  ],
   "dependencies": {
     "z-dock": "git@gitlab.alibaba-inc.com:jinjiang.zjj/lib-zorro-dock.git"
   },
