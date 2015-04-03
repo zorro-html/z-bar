@@ -1,0 +1,11 @@
+{
+  "name": "z-bar",
+  "version": "0.0.1",
+  "main": "z-bar.html",
+  "dependencies": {
+    "z-dock": "git@gitlab.alibaba-inc.com:jinjiang.zjj/lib-zorro-dock.git"
+  },
+  "devDependencies": {
+    "web-component-tester": "Polymer/web-component-tester#~2.2.6"
+  }
+}
