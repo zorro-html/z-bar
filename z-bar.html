@@ -26,7 +26,7 @@
 <link rel="import" href="../z-dock/z-dock.html">
 
 <polymer-element name="z-bar-minor" attributes="" noscript>
-  <template><content></content></template>
+  <template><style>:host{display: block;}</style><content></content></template>
 </polymer-element>
 
 <polymer-element name="z-bar" attributes="" noscript>
@@ -35,13 +35,13 @@
     <style>
       :host {display: block;}
       :host > z-dock {background-color: #f5f5f5; border-bottom: 1px solid #f60; padding: 10px 15px;}
-      :host > z-dock::shadow > div {flex: auto; align-items: center;}
+      :host > z-dock::shadow > div[flex] {-webkit-flex: 1; flex: auto; -webkit-align-items: center; align-items: center;}
     </style>
     <z-dock>
-      <z-dock-right>
+      <z-dock-right vertical>
         <content select="z-bar-minor"></content>
       </z-dock-right>
-      <z-dock-main style="flex: auto;">
+      <z-dock-main style="-webkit-flex: auto; flex: auto;">
         <content></content>
       </z-dock-main>
     </z-dock>
