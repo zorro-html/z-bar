@@ -1,14 +1,17 @@
 {
   "name": "z-bar",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "main": "z-bar.html",
   "ignore": [
     "test"
   ],
   "dependencies": {
-    "z-dock": "git@gitlab.alibaba-inc.com:jinjiang.zjj/lib-zorro-dock.git"
+    "polymer": "~0.5.0",
+    "docs-parser": "Jinjiang/context-free-parser#master",
+    "z-dock": "zorro-html/z-dock"
   },
   "devDependencies": {
-    "web-component-tester": "Polymer/web-component-tester#~2.2.6"
+    "docs-maker": "zorro-html/zorro-docs-maker",
+    "web-component-tester": "Polymer/web-component-tester#^1.4.2"
   }
 }

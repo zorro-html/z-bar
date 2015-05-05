@@ -1,28 +1,31 @@
 <!--
-  # bar
 
-  导航栏
+@element z-bar
 
-  * `<z-bar>`
-  * `<z-bar-minor>`
+# `<z-bar>`
 
-  `<z-bar-minor>` 可以作为 `<z-bar>` 的子元素，并自动靠右排列
+Bar element which often positioned on the top of a page
 
-  ## Example
+`<z-bar-minor>` element could be the sub area on the right to contains menus, links etc.
 
-  ```
-    <z-bar>
-      <h1>Hello World</h1>
-      <z-bar-minor>
-        <z-btn>login</z-btn>
-        <z-btn>help</z-btn>
-        <z-btn>feedback</z-btn>
-      </z-bar-minor>
-    </z-bar>
-  ```
 -->
 
-<link rel="import" href="//g.alicdn.com/mtb/lib-3rd/polymer/polymer.html">
+<!--
+
+@example default
+
+<z-bar>
+  <h1>Hello World</h1>
+  <z-bar-minor>
+    <z-btn>login</z-btn>
+    <z-btn>help</z-btn>
+    <z-btn>feedback</z-btn>
+  </z-bar-minor>
+</z-bar>
+
+-->
+
+<link rel="import" href="../polymer/polymer.html">
 <link rel="import" href="../z-dock/z-dock.html">
 
 <polymer-element name="z-bar-minor" attributes="" noscript>

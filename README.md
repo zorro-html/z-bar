@@ -1,21 +1,18 @@
-# bar
+# `<z-bar>`
 
-导航栏
+Bar element which often positioned on the top of a page
 
-* `<z-bar>`
-* `<z-bar-minor>`
+`<z-bar-minor>` element could be the sub area on the right to contains menus, links etc.
 
-`<z-bar-minor>` 可以作为 `<z-bar>` 的子元素，并自动靠右排列
-
-## Example
+## Examples
 
 ```
-  <z-bar>
-    <h1>Hello World</h1>
-    <z-bar-minor>
-      <z-btn>login</z-btn>
-      <z-btn>help</z-btn>
-      <z-btn>feedback</z-btn>
-    </z-bar-minor>
-  </z-bar>
+<z-bar>
+  <h1>Hello World</h1>
+  <z-bar-minor>
+    <z-btn>login</z-btn>
+    <z-btn>help</z-btn>
+    <z-btn>feedback</z-btn>
+  </z-bar-minor>
+</z-bar>
 ```
